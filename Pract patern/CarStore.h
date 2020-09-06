@@ -4,6 +4,8 @@
 #include"Car.h"
 using namespace std;
 //Used billder and Proxy
+//Салон по продажу авто.Клієнт обирає марку та комплектацію : двигун, ціна, матеріал в салоні авт.
+//Також може здійснювати оплату
 __interface ICreate {
 	void reset();
 	void setComplet(double engen, double price, const string& salon);
